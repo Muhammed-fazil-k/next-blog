@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
+import ThemeSwitch from "./ThemeSwitch";
 export default function NavBar() {
   return (
     <div className={styles.navbar}>
@@ -14,6 +15,7 @@ export default function NavBar() {
           <Link href="/about">About</Link>
         </li>
       </ul>
+      <ThemeSwitch/>
     </nav>
     </div>
   );
