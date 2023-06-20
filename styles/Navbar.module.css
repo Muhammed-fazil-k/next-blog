@@ -1,0 +1,15 @@
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.navbar li {
+  display: inline;
+}
+.navbar li:not(:first-child) {
+  margin-left: 0.75rem;
+}
